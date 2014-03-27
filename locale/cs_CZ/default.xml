@@ -142,6 +142,9 @@ Malinowski</pre>
 <br />
 <pre>4. FORMÁTOVÁNÍ
 Odstavec, který začíná "Toto poslední téma..." nebyl zamýšlený.</pre>]]></message>
+	
+	<message key="default.journalSettings.emailHeader">Následující zpráva je doručena jménem {$journalName}.
+________________________________________________________________________</message>
 	<message key="default.journalSettings.emailSignature">________________________________________________________________________
 {$journalName}
 {$indexUrl}/{$journalPath}</message>
@@ -149,7 +152,8 @@ Odstavec, který začíná "Toto poslední téma..." nebyl zamýšlený.</pre>]]
 	<message key="default.journalSettings.forAuthors"><![CDATA[Máte zájem publikovat v tomto časopisu? Doporučujeme pročtení stránky <a href="{$indexUrl}/{$journalPath}/about">O časopisu</a> kde jsou uvedeny pravidla časopisu pro jednotlivé sekce, stejně jako <a href="{$indexUrl}/{$journalPath}/about/submissions#authorGuidelines">Pokyny autorům</a>. Než mohou autoři odeslat příspěvek, musí se do časopisu <a href="{$indexUrl}/{$journalPath}/user/register">zaregistrovat</a> nebo pokud již registrovaní jsou, mohou se jednoduše <a href="{$indexUrl}/{$journalPath}/login">přihlásit</a> a zahájit pětistupňový proces.]]></message>
 	<message key="default.journalSettings.forLibrarians"><![CDATA[Pobízíme knihovníky, aby uváděli tento časopis ve svém seznamu volně dostupných elektronických publikací. Také může být vhodné poznamenat, že open source redakční software, který tento časopis využívá, je vhodný pro použití s časopisy, v jejichž redakcích mohou členové fakult dané univerzity pracovat (viz <a href="http://pkp.sfu.ca/ojs">Open Journal Systems</a>).]]></message>
 	<message key="default.journalSettings.lockssLicense"><![CDATA[Tento časopis využívá systém LOCKSS pro vytvoření distribuovaného archivačního systému mezi zúčastněnými knihovnami a dovoluje těmto knihovnám vytvářet trvalé archivy časopisu pro účely jeho uchování a obnovení. <a href="http://lockss.org/">Více...</a>]]></message>
-	
+	<message key="default.journalSettings.clockssLicense"><![CDATA[Tento časopis využívá systém CLOCKSS pro vytvoření distribuovaného archivačního systému mezi zúčastněnými knihovnami a dovoluje těmto knihovnám vytvářet trvalé archivy časopisu pro účely jeho uchování a obnovení. <a href="http://clockss.org/">Více...</a>]]></message>
+
 	<!-- Default settings for payment items. -->
 	<message key="default.journalSettings.submissionFee">Odeslání příspěvku</message>
 	<message key="default.journalSettings.submissionFeeDescription">Je požadováno, aby autoři zaplatili Poplatek za odeslání příspěvku jako součást procesu odesílání článku. Tento poplatek přispěje k uhrazení nákladů na recenzní řízení.</message>
@@ -160,8 +164,36 @@ Odstavec, který začíná "Toto poslední téma..." nebyl zamýšlený.</pre>]]
 	<message key="default.journalSettings.waiverPolicy">Pokud nemáte prostředky na uhrazení těchto poplatků, budete mít možnost požádat o prominutí každého poplatku. Nechceme, aby poplatky zabránily odpublikování hodnotných prací.</message>
 	<message key="default.journalSettings.purchaseArticleFee">Koupit článek</message>
 	<message key="default.journalSettings.purchaseArticleFeeDescription">Zaplacení tohoto poplatku Vám zpřístupní článek pro prohlížení, stažení a vytisknutí.</message>
+	<message key="default.journalSettings.purchaseIssueFee">Koupit číslo</message>
+	<message key="default.journalSettings.purchaseIssueFeeDescription">Zaplacení tohoto poplatku Vám zpřístupní číslo časopisu pro prohlížení, stažení a vytisknutí.</message>
 	<message key="default.journalSettings.membershipFee">Členství v asociaci</message>
 	<message key="default.journalSettings.membershipFeeDescription">Zaplacení tohoto poplatku Vás přihlásí jako člena této asociace na jeden rok a poskytne Vám volný přístup k tomuto časopisu.</message>
 	<message key="default.journalSettings.donationFee">Dary časopisu</message>
 	<message key="default.journalSettings.donationFeeDescription">Dary tomuto časopisu v jakékoliv výši jsou s vděčností přijímány a poskytují editorům prostředky, které jim umožní pokračovat v poskytování časopisu nejvyšší kvality svým čtenářům.</message>
+	
+	<!-- Group defaults -->
+	<message key="default.groups.name.manager">Manažer časopisu</message>
+	<message key="default.groups.plural.manager">Manažeři časopisu</message>
+	<message key="default.groups.abbrev.manager">Man.</message>
+	<message key="default.groups.name.editor">Editor časopisu</message>
+	<message key="default.groups.plural.editor">Editoři časopisu</message>
+	<message key="default.groups.abbrev.editor">Ed.</message>
+	<message key="default.groups.name.guestEditor">Hostující editor</message>
+	<message key="default.groups.plural.guestEditor">Hostující editoři</message>
+	<message key="default.groups.abbrev.guestEditor">Host ed.</message>
+	<message key="default.groups.name.sectionEditor">Editor sekce</message>
+	<message key="default.groups.plural.sectionEditor">Editoři sekce</message>
+	<message key="default.groups.abbrev.sectionEditor">Sek. dd.</message>
+	<message key="default.groups.name.subscriptionManager">Manažer předplatného</message>
+	<message key="default.groups.plural.subscriptionManager">Manažeři předplatného</message>
+	<message key="default.groups.abbrev.subscriptionManager">Man. předpl.</message>
+
+	<!-- Genre Defaults -->
+	<message key="default.genres.researchInstrument">Výzkumné nástroje</message>
+	<message key="default.genres.researchMaterials">Zkoumané materiály</message>
+	<message key="default.genres.researchResults">Výsledky výzkumu</message>
+	<message key="default.genres.transcripts">Přepisy</message>
+	<message key="default.genres.dataAnalysis">Analýza dat</message>
+	<message key="default.genres.dataSet">Datová sada</message>
+	<message key="default.genres.sourceTexts">SZdrojové texty</message>
 </locale>
